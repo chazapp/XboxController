@@ -1,4 +1,4 @@
-// main.cpp : définit le point d'entrée pour l'application console.
+// main.cppÂ : dÃ©finit le point d'entrÃ©e pour l'application console.
 //
 
 #include "XboxController.hpp"
@@ -16,6 +16,7 @@ int				main() {
 	}
 	else {
 		std::cout << "XB false" << std::endl;
+		return 0;
 	}
 	bool _end = true;
 	bool _abutton = false;
